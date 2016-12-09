@@ -1,0 +1,13 @@
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+tmr_jobeet:
+    resource: "@TmrJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+job:
+    type:   rest
+    resource:   Tmr\JobeetBundle\Controller\JobController 
